@@ -7,6 +7,7 @@ from django.contrib import messages
 from .forms import registration_form
 from django.contrib.auth.models import auth
 from django.contrib.auth.decorators import login_required
+#edited by vighnesh
 
 # Create your views here.
 def home(request):
