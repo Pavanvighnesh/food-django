@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1>{{snack.item_name}}</h1>
+    <h2>{{snack.item_desc}}</h2>
+    <h2>{{snack.item_price}}</h2>
+
+    <a href="{% url 'food:delete' snack.id %}" class="btn btn-danger">Delete</a>
+    
+</body>
+</html>
+               
+            
+
